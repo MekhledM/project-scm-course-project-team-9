@@ -54,6 +54,12 @@ public class Calculator {
     }
 
     public static void divide(double num1, double num2) {
-        // Student Number 4, add your code here 
+        if (num2 == 0) {
+            System.out.println("Error: Division by zero is not allowed.");
+        } else {
+            double result = num1 / num2;
+            System.out.println("Result of division: " + result);
+        }
+
     }
 }
