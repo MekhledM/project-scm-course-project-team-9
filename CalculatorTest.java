@@ -5,6 +5,22 @@ public class CalculatorTest {
     
 
        @Test
+ 
+      public void testMultiply() {
+        System.out.println("multiply");
+        double num1 = 5.0;
+        double num2 = 4.0;
+        Calculator.multiply(num1, num2);
+   
+    }
+    
+    
+    
+    
+
+
+
+       @Test
     public void testSubtract() {
         System.out.println("subtract");
         double num1 = 6.0;
@@ -14,7 +30,7 @@ public class CalculatorTest {
     }
 
    
-}
+
 
     @Test
     public void testAdd() {
@@ -26,4 +42,5 @@ public class CalculatorTest {
     }
    
 }
+
 
