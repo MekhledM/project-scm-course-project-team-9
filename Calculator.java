@@ -40,7 +40,7 @@ public class Calculator {
     }
 
     public static void add(double num1, double num2) {
-        // Student Number 1 , add your code here
+        return a + b;
     }
 
     public static void subtract(double num1, double num2) {
