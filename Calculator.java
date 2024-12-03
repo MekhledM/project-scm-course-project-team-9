@@ -39,27 +39,34 @@ public class Calculator {
         scanner.close();
     }
 
-    public static void add(double num1, double num2) {
-        return a + b;
+    public static double add(double num1, double num2) {
+      double result = num1 + num2;
+      System.out.println("Result: " + result);
+        return result;
     }
 
-    public static void subtract(double num1, double num2) {
+    public static double subtract(double num1, double num2) {
         double result = num1 - num2;
         System.out.println("Result: " + result);
+        return result;
     }
 
-    public static void multiply(double num1, double num2) {
+    public static double multiply(double num1, double num2) {
         double result = num1 * num2;
         System.out.println("Result of multiplication: " + result);
+        return result;
     }
 
-    public static void divide(double num1, double num2) {
+    public static double divide(double num1, double num2) {
         if (num2 == 0) {
             System.out.println("Error: Division by zero is not allowed.");
         } else {
             double result = num1 / num2;
             System.out.println("Result of division: " + result);
+            return result;
         }
+        return 0;
+        
 
     }
 }
